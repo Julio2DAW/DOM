@@ -4,3 +4,7 @@ body{
 .c1 span{
   font-weight: bold;
 }
+#correCaminos{
+  position: absolute;
+  left: 20px;
+}

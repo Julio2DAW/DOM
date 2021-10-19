@@ -16,5 +16,27 @@ function ejecutar(){
   console.log(campos[2].value);
 
   let p = document.querySelector('.c1')
-  console.log(p.innerHTML)
+  console.log(p.outerHTML)
+
+  let spans = document.querySelectorAll('.c1 span')
+  console.log(spans)
+
+  //document.getElementByClassName
+
+  //Modificación del DOM
+  spans[1].innerHTML = ' ¡Viva la Pepa!'
+
+  //Modificar atributos de estilo
+  spans[0].style.color = 'blue'
+  spans[0].style.fontSize = '20pt'
 }
+
+
+  setInterval(mover, 100)
+
+  let posicion = 0
+  function mover() {
+    let p = document.getElementById('correCaminos')
+    p.style.left = `${posicion}px`
+    posicion += 1
+  }
