@@ -14,3 +14,6 @@ body{
 .negrita{
   font-weight: bold;
 }
+.borde img{
+  width: 40%;
+}
