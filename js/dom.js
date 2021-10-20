@@ -40,3 +40,11 @@ function ejecutar(){
     p.style.left = `${posicion}px`
     posicion += 1
   }
+function construir() {
+  console.log('Construyo')
+  let div = document.getElementsByClassName('borde')[0]
+  //console.log(div);
+  //div.innerHTML = '<p>Esto es un texto <span class="negrita">en negrita</span>.</p>'
+  let p = document.createElement('p')
+  div.appendChild(p)
+}

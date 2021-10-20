@@ -8,3 +8,9 @@ body{
   position: absolute;
   left: 20px;
 }
+.borde{
+  border: 2px solid blue;
+}
+.borde span{
+  font-weight: bold;
+}
